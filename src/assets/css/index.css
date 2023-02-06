@@ -1,0 +1,175 @@
+:root{
+  --primary: #FF4820;
+  --gradient: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%),
+  linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  --dark: #040C18;
+  --darkLight: #042C54;
+  --text: #81AFDD;
+  --transparent: transparent;
+  --white: #ffffff;
+  --objects: #1B78DE;
+}
+body{
+  color: var(--white);
+  background-color: var(--dark);
+  font-family: 'Manrope', sans-serif;
+}
+a{
+  color: #FF8A71 !important;
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+}
+.btn{
+  padding: 10px 30px;
+}
+.btn-no-padding {
+  padding: 10px;
+}
+.btn-primary:hover{
+  background-color: var(--primary);
+}
+.btn-link{
+  text-decoration: none;
+  color: var(--white);
+}
+.btn-link:hover{
+  color: var(--white);
+}
+h1,h2{
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: bold;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 800;
+
+}
+h2{
+  font-size: 34px;
+}
+h3 {
+  font-weight: bold;
+  position: relative;
+  padding: 30px 0;
+}
+h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 35%;
+  background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  height: 5px;
+  width: 25%;
+}
+p{
+  color: var(--text);
+}
+.gradient{
+  background-color: var(--gradient);
+}
+/* Navbar */
+.navbar {
+  background-color: var(--transparent);
+  color: var(--white) !important;
+  padding: 30px 0;
+}
+.navbar a{
+  color: var(--white) !important;
+}
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:hover{
+  box-shadow: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+/* Hero */
+.inputEmail{
+  background-color: var(--darkLight);
+  outline: none;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  color: var(--white);
+  padding: 15px;
+}
+.inputEmail::placeholder{
+  color: #3D6184;
+}
+/* What is GPT3 */
+.banner{
+  background-color: var(--darkLight);
+  padding: 15px;
+  gap: 40px;
+}
+/* Feature */
+.feature .container.banner {
+  background: var(--gradient);
+  border-radius: 6px;
+}
+.feature .container.banner h2{
+  color: var(--white);
+  background: var(--transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--white);
+  background-clip: text;
+  text-fill-color: var(--white);
+  font-weight: bold;
+}
+.feature .container.banner p{
+  color: var(--white);
+}
+.feature .container.banner .btn-black,
+.feature .container.banner .btn-black:hover{
+  background-color: #000;
+  color: white;
+}
+/* Blog */
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: var(--darkLight);
+  border-radius: 45px 0 0 0;
+}
+img.card-img-top {
+  height: 45%;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  height: 250px;
+  position: relative;
+}
+.card-body a {
+  position: absolute;
+  bottom: 15px;
+  left: 35%;
+}
+/* Footer */
+footer{
+  height: 80px;
+  background-color: var(--darkLight);
+}
+footer .container{
+  height: 100%;
+
+}
+.btn-outline-primary {
+  border-color: var(--white) !important;
+  color: var(--white);
+  padding: 20px 30px;
+  border-radius: 0;
+}
+.btn-outline-primary:hover {
+  border-color: var(--primary) !important;
+  background-color: var(--primary) !important;
+}

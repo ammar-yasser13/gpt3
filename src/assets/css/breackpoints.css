@@ -1,0 +1,45 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .btn-no-padding {
+        padding: 10px 20px;
+    }
+    /* What Is Gpt3 */
+    .banner {
+        padding: 50px !important;
+        gap: 80px !important;
+    }
+    .whatIsGpt h2{
+        width: 50%;
+    }
+    .whatIsGpt p{
+        width: 70%;
+    }
+    .cards p{
+        width: 100%;
+    }
+    h3::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0% !important;
+        background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%),linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        height: 5px;
+        width: 25%;
+    }
+    /* Feature */
+    .feature .container.banner .btn-black{
+        width: 20%;
+    }
+    .feature .container.banner .bannerHead{
+    width: 80%;
+    }
+    /* Blog */
+    .blog .card {
+        width: 20rem;
+    }
+    .blog .card-body a {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+    }
+}
