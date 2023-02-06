@@ -36,7 +36,7 @@ const Blog = () => {
                 {/* Articles */}
                 {
                     articles.map((article , index) => (
-                        <Col xs={12} md={12/2} lg={12/3} className="mb-5">
+                        <Col key={index} xs={12} md={12/2} lg={12/3} className="mb-5">
                             <Card key={index}>
                                 <Card.Img variant="top" src={article.img} />
                                 <Card.Body>
